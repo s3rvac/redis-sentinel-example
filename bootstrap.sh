@@ -5,7 +5,7 @@ echo "vm.overcommit_memory = 1" >> /etc/sysctl.conf
 sysctl --system
 
 # Prevent the installation process from automatically starting the services (we
-# want to use a custom config and start them afterwards).
+# want to use a custom config and start them manually afterwards).
 # https://jpetazzo.github.io/2013/10/06/policy-rc-d-do-not-start-services-automatically/
 echo exit 101 > /usr/sbin/policy-rc.d
 chmod +x /usr/sbin/policy-rc.d
