@@ -13,8 +13,8 @@ sentinel = redis.sentinel.Sentinel(
         ('192.168.0.12', 26379),
         ('192.168.0.13', 26379),
     ],
-    sentinel_kwargs={'password': 'password123'},
-    password='password123',
+    sentinel_kwargs={'password': 'sentinelpassword123'},
+    password='serverpassword123',
 )
 
 while True:
