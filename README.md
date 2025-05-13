@@ -27,7 +27,7 @@ Configuration files are in the [configs](configs) directory.
 * [Virtualbox](https://www.virtualbox.org/) for running virtual machines
 * [Vagrant](https://www.vagrantup.com/) for setting up virtual machines
 
-Tested on Linux.
+Tested on Linux with Redis 5.0.
 
 ## Installation
 
